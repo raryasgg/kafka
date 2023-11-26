@@ -1,4 +1,11 @@
-Windows
+Windows 
+kafaka config
+F:\Tool\kafka_2.13-3.6.0\kafka_2.13-3.6.0\bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+F:\Tool\kafka_2.13-3.6.0\kafka_2.13-3.6.0\bin\windows\kafka-server-start.bat config\server.properties
+
+C:\kafka_2.13-3.6.0\config\zookeeper.properties
+C:\kafka_2.13-3.6.0>bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+C:\kafka_2.13-3.6.0>bin\windows\kafka-server-start.bat config\server.properties
 ___________
 Create new topic 
 >bin\windows\kafka-topics.bat --create --topic user-topic --bootstrap-server localhost:9092
